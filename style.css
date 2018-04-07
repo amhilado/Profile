@@ -1,46 +1,47 @@
 h1 {
     font-family: Helvetica;
-    font-size: 24px;
+    font-size: 36px;
     text-align: left;
     color: white;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
 
 p {
     font-family: Helvetica;
     font-size: 16px;
-    text-align: center;
     color: white;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
-p:hover {
-    color: pink;
+hr {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+ul li {
+    font-family: Helvetica;
+    float: left;
+    line-height: 30px;
+    padding-right: 5%;
+    color: white;
 }
 
 body {
     background: #1a1a1a;
-}
-
-#image {
-    float: left;
-    width: 50%;
-    background: orange;
-}
-
-#opening {
-    float: left;
-    width: 50%;
-    background-color: grey;
-    text-align: center;
-}
-
-#description {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background-color: blue;
+    margin: 0;
 }
 
 .header {
@@ -49,8 +50,8 @@ body {
 }
 
 .logo {
-    height: 50%;
-    width: 50%;
+    height: 20%;
+    width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -58,12 +59,87 @@ body {
     padding-bottom: 20px;
 }
 
-.image {
-    height: 50%;
+/*.image {
+    float: left;
+    height: 20%;
+    width: 20%;
+    margin-left: 16%;
+    padding-top: 10%;
+    background-color: red;
+}*/
+
+.content {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    /*background-color: orange;*/
+}
+
+.profile {
+    float: left;
+    margin-left: 6%;
+    padding: 5% 7% 4% 7%;
+    height: 20%;
+    width: 20%;
+    /*background-color: red;*/
+}
+
+.opening {
+    float: right;
     width: 50%;
+    height: 100%;
+    padding: 5% 10% 0% 0%;
+    /*background-color: blue;*/
+}
+
+.tumblr {
+    height: 50px;
+    width: 50px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background: url('images/Tumblr.png');
+    background-size: 50px;
+}
+
+.tumblr:hover {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: url('images/TumblrHover.png');
+    background-size: 50px;
+}
+
+.instagram {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: url('images/Instagram.png');
+    background-size: 50px;
+}
+
+.instagram:hover {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: url('images/InstagramHover.png');
+    background-size: 50px;
+}
+
+.linkedin {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: url('images/LinkedIn.png');
+    background-size: 50px;
+}
+
+.linkedin:hover {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: url('images/LinkedInHover.png');
+    background-size: 50px;
+}
+
+.edu {
+    margin-left: 8%;
 }
