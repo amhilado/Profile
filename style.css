@@ -100,6 +100,8 @@ body {
 }
 
 .tumblr {
+    opacity: 1.0;
+    transition: background .2s ease-in-out;
     height: 50px;
     width: 50px;
     display: block;
@@ -108,6 +110,8 @@ body {
 }
 
 .tumblr:hover {
+    opacity: 1.0;
+    transition: background .5s ease-in-out;
     height: 50px;
     width: 50px;
     display: block;
@@ -116,6 +120,8 @@ body {
 }
 
 .instagram {
+    opacity: 1.0;
+    transition: background .2s ease-in-out;
     height: 50px;
     width: 50px;
     display: block;
@@ -124,6 +130,8 @@ body {
 }
 
 .instagram:hover {
+    opacity: 1.0;
+    transition: background .5s ease-in-out;
     height: 50px;
     width: 50px;
     display: block;
@@ -132,6 +140,8 @@ body {
 }
 
 .linkedin {
+    opacity: 1.0;
+    transition: background .5s ease-in-out;
     height: 50px;
     width: 50px;
     display: block;
@@ -140,6 +150,8 @@ body {
 }
 
 .linkedin:hover {
+    opacity: 1.0;
+    transition: background .2s ease-in-out;
     height: 50px;
     width: 50px;
     display: block;
