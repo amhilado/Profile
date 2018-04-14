@@ -1,3 +1,151 @@
+@media screen and (min-width: 200px) {
+    .content {
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+    }
+
+    .profile {
+        display: block;
+        margin: auto;
+        padding: 5%;
+        height: 50%;
+        width: 50%;
+    }
+    
+    .opening {
+        margin: auto;
+        width: 75%;
+        height: 100%;
+        padding: 3%;
+    }
+
+    .edu {
+        margin: auto;
+        width: 75%;
+    }
+
+    .edu:after {
+        content:" ";
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        width: 75%;
+        height: 1px;
+        background: #fff;
+    }
+    
+    .info {
+        margin: auto;
+    }
+    
+    .skills {
+        margin: auto;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+    }
+
+    .profile {
+        display: block;
+        margin: auto;
+        padding: 5%;
+        height: 50%;
+        width: 50%;
+    }
+    
+    .opening {
+        margin: auto;
+        width: 75%;
+        height: 100%;
+        padding: 3%;
+    }
+
+    .edu {
+        margin: auto;
+        width: 75%;
+    }
+
+    .edu:after {
+        content:" ";
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        width: 75%;
+        height: 1px;
+        background: #fff;
+    }
+    
+    .info {
+        margin: auto;
+    }
+    
+    .skills {
+        margin: auto;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .content {
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+    }
+
+    .profile {
+        float: left;
+        margin-left: 14%;
+        padding: 5% 0% 4% 5%;
+        height: 25%;
+        width: 25%;
+    }
+    
+    .opening {
+        float: right;
+        width: 31%;
+        height: 100%;
+        padding: 3% 19.25% 2% 0%;
+    }
+
+    .edu {
+        float: left;
+        margin: 0 2% 0 8%;
+        width: 40%;
+    }
+
+    .edu:after {
+        display: none;
+    }
+    
+    .info {
+        margin: 0 15% 4% 15%;
+    }
+    
+    .skills {
+        margin: 0 8% 0 0;
+        float: right;
+        width: 42%;
+    }
+    
+    .skills:before {
+        content:" ";
+        margin: 30px -1%;
+        position: absolute;
+        width: 1px;
+        height: 500px;
+        background: #fff;
+      }
+}
+
 h1, h2, h3, h4 {
     font-family: Helvetica;
     color: white;
@@ -78,27 +226,6 @@ body {
     padding-bottom: 20px;
 }
 
-.content {
-    overflow: auto;
-    height: 100%;
-    width: 100%;
-}
-
-.profile {
-    float: left;
-    margin-left: 14%;
-    padding: 5% 0% 4% 5%;
-    height: 25%;
-    width: 25%;
-}
-
-.opening {
-    float: right;
-    width: 31%;
-    height: 100%;
-    padding: 3% 19.25% 2% 0%;
-}
-
 .tumblr {
     opacity: 1.0;
     transition: background .2s ease-in-out;
@@ -141,7 +268,7 @@ body {
 
 .linkedin {
     opacity: 1.0;
-    transition: background .5s ease-in-out;
+    transition: background .2s ease-in-out;
     height: 50px;
     width: 50px;
     display: block;
@@ -151,7 +278,7 @@ body {
 
 .linkedin:hover {
     opacity: 1.0;
-    transition: background .2s ease-in-out;
+    transition: background .5s ease-in-out;
     height: 50px;
     width: 50px;
     display: block;
@@ -163,29 +290,3 @@ body {
     position: relative;
 }
 
-.edu {
-    float: left;
-    margin: 0 2% 0 8%;
-    width: 40%;
-}
-
-.info {
-    margin: 0 15% 4% 15%;
-}
-
-.skills {
-    margin: 0 8% 0 0;
-    float: right;
-    width: 42%;
-}
-
-.skills:before {
-    content:" ";
-    margin: 30px -1%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    height: 500px;
-    background: #fff;
-  }
